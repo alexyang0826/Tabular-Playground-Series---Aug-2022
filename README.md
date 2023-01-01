@@ -15,8 +15,8 @@ change paths to your `model.pt` , `train.csv` and `test.csv` in *Path* block
 #### Hyperparameters :
 
     train_val_ratio : 0.9999  # split train and val
-    epoch = 500 # epoch numbers
-    batch_size = 16 # batch size
+    epoch = 429 # epoch numbers
+    batch_size = 156 # batch size
     save_best = False   # save hightest val accuracy or not
 #### Model:
 Three layers nn:
