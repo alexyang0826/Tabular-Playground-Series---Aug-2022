@@ -19,6 +19,12 @@ change paths to your `model.pt` , `train.csv` and `test.csv` in *Path* block
     batch_size = 16 # batch size
     save_best = False   # save hightest val accuracy or not
 #### Model:
+Three layers nn:
+
+input_shape > 32 > 64 > 1
+
+optimizer: Adam( lr=0.001, betas=( 0.9, 0.999), eps=1e-08 )
+
     class Model(nn.Module):
     def __init__(self, input_shape):
         super().__init__()
