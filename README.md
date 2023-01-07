@@ -4,6 +4,8 @@
 
 using colab for .ipynb
 
+if you want to run on your device, use `requiremet.txt` to build your environment.
+
 change paths to your `model.pt` , `train.csv` and `test.csv` in *Path* block
 
     MODEL_PATH = './models/model.pt'
@@ -41,6 +43,8 @@ optimizer: Adam( lr=0.001, betas=( 0.9, 0.999), eps=1e-08 )
 ### 3. Evaluation code
 
 Predict result and save result to `submission_p.csv`
+
+Remember to change path in _PATH_ block
 
     test_data = test_df_clean.to_numpy()
     test_ds = TaskDataset(test_data, return_y=False)
