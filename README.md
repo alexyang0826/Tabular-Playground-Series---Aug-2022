@@ -2,7 +2,7 @@
 
 ### 1. Specification of dependencies
 
-using .ipynb
+using colab for .ipynb
 
 change paths to your `model.pt` , `train.csv` and `test.csv` in *Path* block
 
