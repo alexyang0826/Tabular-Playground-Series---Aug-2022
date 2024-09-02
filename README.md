@@ -1,5 +1,7 @@
 # Tabular-Playground-Series---Aug-2022
 
+Kaggle link: https://www.kaggle.com/competitions/tabular-playground-series-aug-2022
+
 ### 1. Specification of dependencies
 
 using colab for .ipynb
